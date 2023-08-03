@@ -58,7 +58,7 @@ These lines allow the system, when pressing the add/decrease brightness keys, to
 
 6. That's all, if desired, you can change the delta of brightness changes in the scripts.
 
------------AVERAGE AMD ENJOYER-----------
+                    -----------AVERAGE AMD ENJOYER-----------
 
 ⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⠛⠋⠉⠈⠉⠉⠉⠉⠛⠻⢿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⢿⣿⣿⣿⣿
