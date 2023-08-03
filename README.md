@@ -6,7 +6,7 @@
 
 Дорогу осилит идущий:
 1. Сперва необходимо понять, где располагается необходимый файл, в котором записывается значение яркости.
-Как правило полный путь выглядит так: /sys/class/backlight/Что-то свое/brightness '\n'
+Как правило полный путь выглядит так: /sys/class/backlight/Что-то свое/brightness .
 В моем случае было так: /sys/class/backlight/amdgpu_b10/brightness .
 Также видел еще и так: /sys/class/backlight/acpi_video0/brightness .
 
