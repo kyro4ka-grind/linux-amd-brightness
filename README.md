@@ -23,8 +23,8 @@ _#chmod +x ~/.scripts/brightnessDown_
 
 6. Далее представлена настройка для оконного менеджера i3, вероятнее всего в других будет +- также, но это не точно.
 В файл конфигурации i3 помещаем следующие 2 строчки:
-_#bindsym XF86MonBrightnessUp exec --no-startup-id ~/.scripts/brightnessUp_
-_#bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDown_
+_#bindsym XF86MonBrightnessUp exec --no-startup-id ~/.scripts/brightnessUp_ ,
+_#bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDown_ .
 Эти строчки позволяют системе, при нажатии клавиш прибавления/убавления яркости запускать скрипт, который и выполнит желаемое действие.
 
 7. Вот и все, при желании можно изменить дельту изменений яркости в самих скриптах.
@@ -52,8 +52,8 @@ _#chmod +x ~/.scripts/brightnessDown_
 
 6. The following is the setting for the i3 window manager, most likely in others it will be +- as well, but this is not accurate.
 We put the following 2 lines in the i3 configuration file:
-_#bindsym XF86MonBrightnessUp exec --no-startup-id ~/.scripts/brightnessUp_
-_#bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDown_
+_#bindsym XF86MonBrightnessUp exec --no-startup-id ~/.scripts/brightnessUp_ ,
+_#bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDown_ .
 These lines allow the system, when pressing the add/decrease brightness keys, to run a script that will perform the desired action.
 
 7. That's all, if desired, you can change the delta of brightness changes in the scripts.
