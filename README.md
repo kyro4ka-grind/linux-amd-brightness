@@ -35,9 +35,9 @@ directly in the video adapter config, using a couple of simple bash scripts.
 
 The road will be mastered by the person walking:
 1. First you need to understand where the necessary file is located, in which the brightness value is recorded.
-As a rule, the full path looks like this: /sys/class/backlight/Something of its own/brightness
-In my case it was like this: /sys/class/backlight/amdgpu_b10/brightness
-I also saw it like this: /sys/class/backlight/acpi_video0/brightness
+As a rule, the full path looks like this: /sys/class/backlight/Something of its own/brightness .
+In my case it was like this: /sys/class/backlight/amdgpu_b10/brightness .
+I also saw it like this: /sys/class/backlight/acpi_video0/brightness .
 
 3. The next step is to grant the user (Don't you use the system through root?:.)) the rights to change this
 file using scripts, because in a good way, the user, by default, should not have access to change it:
