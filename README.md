@@ -1,5 +1,5 @@
-# Linux Amd Brightness
-# lenovo thinkpad t14 gen 2 Ryzen 7 5850u
+# Linux Amd Brightness Laptop Яркость Ноутбук
+## lenovo thinkpad t14 gen 2 Ryzen 7 5850u
 # Ru
 К сожалению яркость на видеоадаптерах Amd не регулируется с помощью xBacklight, а также с помощью многих других похожих утилит,
 поэтому было принято решение изменять яркость непосредственно в конфиге видеоадаптера с помощью пары простых bash скриптов.
