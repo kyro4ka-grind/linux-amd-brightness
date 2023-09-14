@@ -29,6 +29,8 @@ _#bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDown_ 
 
 7. Вот и все, при желании можно изменить дельту изменений яркости в самих скриптах.
 
+~UPDATE: Может такое быть, что у вашего пользователя, после перезапуска, не будет достаточно прав для изменения файла _brightness_. Возможным решением будет создание службы, которая будет запускаться с udev при инициализации системы. Данная служба должна выдать права вашему пользователю на изменение файла с помощью chmod. Про добавление пользовательских служб имеется много информации в интернете.
+
 # En
 Unfortunately, the brightness on Amd video adapters is not regulated using xBacklight as well as using many other similar utilities, so it was decided to change the brightness
 directly in the video adapter config, using a couple of simple bash scripts.
@@ -57,6 +59,8 @@ _#bindsym XF86MonBrightnessDown exec --no-startup-id ~/.scripts/brightnessDown_ 
 These lines allow the system, when pressing the add/decrease brightness keys, to run a script that will perform the desired action.
 
 7. That's all, if desired, you can change the delta of brightness changes in the scripts.
+
+~UPDATE: It may be that your user, after restarting, will not have enough rights to change the _brightness_ file. A possible solution would be to create a service that will start with udev when the system is initialized. This service should grant rights to your user to modify the file using chmod. There is a lot of information on the Internet about adding user services.
 
 ----------------------------------AVERAGE AMD ENJOYER----------------------------------
 
